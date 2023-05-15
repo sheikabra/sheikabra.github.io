@@ -1,5 +1,6 @@
 {
-  "name": "sheikabra.github.io",
+  "name": "sheikabra.github.io", 
+  "homepage": "https://sheikabra.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
