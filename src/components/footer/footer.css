@@ -1,0 +1,61 @@
+footer{    
+    
+    background:var(--color-primary);  
+    padding: .1rem; 
+    text-align:center; 
+    font-size: 0.9rem;   
+    position: absolute; 
+    bottom: 2; 
+    width: 100%;
+   
+   
+   
+   
+
+}  
+
+
+footer a{ 
+    color: var(--color-bg); 
+    
+} 
+
+.footer__logo{ 
+    font-size: 2rem; 
+    font-weight: 500; 
+    margin-bottom: 2rem; 
+    display: inline-block; 
+} 
+
+.permalinks{ 
+    display: flex; 
+    flex-wrap: wrap;  
+    justify-content: center; 
+    gap: 2rem;  
+    margin: 0 auto 3rem; 
+}
+
+.footer__copyright{ 
+    margin-bottom: 1rem; 
+    color: var(--color-bg); 
+} 
+
+
+@media screen and (max-width: 1024px) { 
+    .footer__copyright{ 
+        margin-bottom: 4rem; 
+        color: var(--color-bg);
+    }
+    
+  } 
+  
+  /* ============================ MEDIA QUERIES (SMALL DEVICES)  ===================================== */
+  @media screen and (max-width: 600px) { 
+    .permalinks{ 
+        flex-direction: column; 
+        gap: 1.5rem; 
+    } 
+
+    
+    
+  }
